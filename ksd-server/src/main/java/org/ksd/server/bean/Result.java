@@ -1,0 +1,37 @@
+/*
+ * Copyright (c) 2014 Qunar.com. All Rights Reserved.
+ */
+package org.ksd.server.bean;
+
+public class Result<T> {
+    private int code;
+    private String msg;
+    private T t;
+
+    
+
+    public int getCode() {
+        return code;
+    }
+
+    public void setCode(int code) {
+        this.code = code;
+    }
+
+    public String getMsg() {
+        return msg;
+    }
+
+    public void setMsg(String msg) {
+        this.msg = msg;
+    }
+
+    public T getT() {
+        return t;
+    }
+
+    public void setT(T t) {
+        this.t = t;
+    }
+    
+}

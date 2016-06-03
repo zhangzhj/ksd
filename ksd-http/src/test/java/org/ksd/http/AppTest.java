@@ -1,4 +1,4 @@
-package org.ksd.manager;
+package org.ksd.http;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
