@@ -27,5 +27,6 @@
     <module>ksd-client</module>
     <module>ksd-manager</module>
     <module>ksd-common</module>
+    <module>ksd-spring</module>
   </modules>
 </project>
